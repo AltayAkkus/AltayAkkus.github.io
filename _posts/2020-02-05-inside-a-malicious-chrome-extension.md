@@ -21,7 +21,7 @@ You can just download it, get the unique extension ID from chrome://extensions, 
 
 ## Basic Structure
 
-The Extension folder has 4 subfolders, a empty .vs folder, suggesting that the developers used Visual Studio, a _metadata folder filled with file hashes, this seems to be a Chrome Extension standard to guarantee that the files haven’t been modified or corrupted, a img folder with the extension logo, and finally the interesting part: A folder named **js**.
+The Extension folder has 4 subfolders, a empty **.vs** folder, suggesting that the developers used Visual Studio, a _metadata folder filled with file hashes, this seems to be a Chrome Extension standard to guarantee that the files haven’t been modified or corrupted, a **img** folder with the extension logo, and finally the interesting part: A folder named **js**.
 
 This folder has a total of 4 non obfuscated JavaScript files, and — *as all good JavaScript programs* — a jQuery dependency.
 
