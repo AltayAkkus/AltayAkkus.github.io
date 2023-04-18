@@ -55,7 +55,7 @@ The listener saves the E-Mail and password combination into the **app.ld** varia
 
 The **fb3.js** has another function, which constantly tries to grab the Facebook access token, if it succeeds it is also stored in **app.t**
 
-{ % gist 6acf2a878e1cb69521cb2a7dfdcc6072 background.js %}
+{% gist 6acf2a878e1cb69521cb2a7dfdcc6072 background.js %}
 
 So now the extension has successfully grabbed the E-Mail and Password, the unique ID, and the access token.
 
