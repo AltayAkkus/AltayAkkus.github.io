@@ -9,7 +9,7 @@ I checked out the site, and saw that it only had negative reviews, stating that 
 ## The Extension
 ![Screenshot from the Chrome Web Store]({{site.url}}/public/chrome_extension_title.jpg)
 
-The extension claims to block out Facebook advertisements, and — ironically — advertises itself on Facebook for it. This stragety is quite simple but ingenious, I mean who likes to see ads while browsing Facebook? Also if you are seeing their advertisement, you obviously have no AdBlocker installed for it.
+The extension claims to block out Facebook advertisements, and — ironically — advertises itself on Facebook for it. This strategy is quite simple but ingenious, I mean who likes to see ads while browsing Facebook? Also if you are seeing their advertisement, you obviously have no AdBlocker installed for it.
 
 The Chrome Web Store says it has a total of 10k+ users.
 
