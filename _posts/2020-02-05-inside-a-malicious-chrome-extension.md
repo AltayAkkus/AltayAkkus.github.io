@@ -91,7 +91,7 @@ I had a quite funny idea: What would happen if you would trash their database by
 
 I wrote a quick JavaScript which creates a fake E-Mail and Password combination, a fake User ID and then sends it to the server.
 
-You can add fake data by visiting this [JSFiddle]/https://jsfiddle.net/ozj1mhpu/) and hitting the “Run” Button, once, twice or maybe a thousand times. *Future Altay: The website is down, it was fun nonetheless*
+You can add fake data by visiting this [JSFiddle](https://jsfiddle.net/ozj1mhpu/) and hitting the “Run” Button, once, twice or maybe a thousand times. *Future Altay: The website is down, it was fun nonetheless*
 
 **Thank you for reading!** I am not quite sure how to think about this, Chrome Web Store has virtually no security measures, I wasn’t warned that this file could be a virus and the extension seems to be able to do just about everything, while users can install it with one-click. *Future Altay: Manifest V3 is better I guess, although users will probably accept every single permission requested*
 
