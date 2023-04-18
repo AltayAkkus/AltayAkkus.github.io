@@ -7,7 +7,7 @@ Today I saw a sketchy Facebook ad, an empty “Blogging” site with stock photo
 I checked out the site, and saw that it only had negative reviews, stating that it didn’t work and slowed down their browser. This made me curious.
 
 # The Extension
-![Screenshot from the Chrome Web Store][{{site.url}}/public/chrome_extension_title.jpg]
+![Screenshot from the Chrome Web Store]({{site.url}}/public/chrome_extension_title.jpg)
 
 The extension claims to block out Facebook advertisements, and — ironically — advertises itself on Facebook for it. This stragety is quite simple but ingenious, I mean who likes to see ads while browsing Facebook? Also if you are seeing their advertisement, you obviously have no AdBlocker installed for it.
 
