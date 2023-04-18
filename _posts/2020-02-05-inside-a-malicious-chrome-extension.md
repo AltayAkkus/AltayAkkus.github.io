@@ -6,20 +6,20 @@ Today I saw a sketchy Facebook ad, an empty “Blogging” site with stock photo
 
 I checked out the site, and saw that it only had negative reviews, stating that it didn’t work and slowed down their browser. This made me curious.
 
-# The Extension
+## The Extension
 ![Screenshot from the Chrome Web Store]({{site.url}}/public/chrome_extension_title.jpg)
 
 The extension claims to block out Facebook advertisements, and — ironically — advertises itself on Facebook for it. This stragety is quite simple but ingenious, I mean who likes to see ads while browsing Facebook? Also if you are seeing their advertisement, you obviously have no AdBlocker installed for it.
 
 The Chrome Web Store says it has a total of 10k+ users.
 
-# Behind the Scenes
+## Behind the Scenes
 
 Analyzing Google Chrome Extensions can be quite easy, atleast when the code — like in this example — isnt obfuscated.
 
 You can just download it, get the unique extension ID from chrome://extensions, and then look at the source code found in your Profile Folder\Extensions\IDofYourExtension.
 
-# Basic Structure
+## Basic Structure
 
 The Extension folder has 4 subfolders, a empty .vs folder, suggesting that the developers used Visual Studio, a _metadata folder filled with file hashes, this seems to be a Chrome Extension standard to guarantee that the files haven’t been modified or corrupted, a img folder with the extension logo, and finally the interesting part: A folder named **js**.
 
@@ -63,7 +63,7 @@ The obtained information is quite critical, the E-Mail and Password could be use
 
 **The extension has gathered a lot of information, the breaking point however is how it transfers this information back to the owner.**
 
-# The Exfil
+## The Exfil
 
 Typically, malware has a breaking point: The Exfiltration of it's stolen data, or contacting a C&C Server to receive further instructions.
 
@@ -83,7 +83,7 @@ This picture is 1x1 big, so you really wouldn’t see it.
 
 Loading an image, rather than making a POST request to some sketchy server, is less likely to be detected.
 
-# Measures taken
+## Measures taken
 
 I reported the extension to the Chrome Web Store and Facebook, I will talk more about in a second. *Note from future Altay: Chrome took it down, and also heavily improved their extension security with [Manifest V3](https://developer.chrome.com/docs/extensions/mv3/intro/)*
 
