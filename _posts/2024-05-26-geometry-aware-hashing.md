@@ -16,19 +16,19 @@ But the underlying information that a `Geometry` encodes is not a fixed-set of c
 A single area (or line) can be expressed in multiple sets of Coordinates, since the direction or order of the underlying vectors are not considered, but the area which they span in the end.
 
 Think of this polygon `[A, B, C, D, E, F, A]`
-![Animation of vectors](/imgs/first_anim.gif "[A, B, C, D, E, F, A]")
+![Animation of vectors](/public/imgs/first_anim.gif "[A, B, C, D, E, F, A]")
 
 It spans the same exact area as this Polygon `[D, E, F, A, B, C, D]`
-![Animation of vectors](/imgs/second_anim.gif "[D, E, F, A, B, C, D]")
+![Animation of vectors](/public/imgs/second_anim.gif "[D, E, F, A, B, C, D]")
 
 In the case of polygons, you can shift your cyclical coordinates however you want.
 
 In `LineStrings` you see similiar behaviour . You can read them  [palindromically](https://en.wikipedia.org/wiki/Palindrome).
 
 `[A, B, C, D, E]`
-![Animation of vectors](/imgs/third_anim.gif "[A, B, C, D, E]")
+![Animation of vectors](/public/imgs/third_anim.gif "[A, B, C, D, E]")
 `[E, D, C, B, A]`
-![Animation of vectors](/imgs/fourth_anim.gif "[A, B, C, D, E]")
+![Animation of vectors](/public/imgs/fourth_anim.gif "[A, B, C, D, E]")
 
 
 If your hashing function needs to provide a hash, unique to the shape of your Geometry, not to the particular set of coordinates, you need to be able to consistenly choose a _starting point_.
